@@ -1,0 +1,115 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'source sans pro',calibri,Tahoma, sans-serif;
+}
+h2, .nav-item #transition, footer  {
+    text-align: center;
+    padding: 60px;
+}
+/************** header *****************/
+.collapse {
+    margin-left: 4px;
+}
+.nav-item {
+    font-weight: bold;
+    padding-right: 45px;
+}
+header {
+    background: url(img/robo_futur.jpg)no-repeat 50% 50%;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 0px 0px 5px 5px;
+    margin-bottom: 150px;
+    color: bisque;
+}
+
+h1 {
+    font-size: 5em;
+    padding: 190px 0 0 20%;
+    text-shadow: 3px 3px 2px #0E1736;
+    animation: titre ease 4s;
+    text-align: justify;
+    color: cornflowerblue;
+}
+h3, p {
+    text-align: left;
+    padding: 20px;
+}
+a {
+    color: bisque;
+}
+@keyframes tite {
+    0% {
+        opacity: 0;
+        transform: translate(Y0px, 350px);
+    }  
+    100% {
+        opacity: 1%;
+        transform: translateY(0px);
+    }
+}
+         /******************* left part *********************/
+
+#leftPart {
+    background-color: #0E2773;
+    border-radius: 2px;
+    padding: 30px;
+    color: bisque;
+    text-shadow: black 4px, 4px, 3px;
+}
+
+h5 {
+    text-decoration: underline #bf1736;
+}
+
+
+.elements {
+    padding: 80px 0;
+} 
+.elements img {
+    border-radius: 5%;
+    width: 200px;
+} 
+.elements p {
+    font-size: 1.2em;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    padding-right: 20px;
+    overflow: hidden;
+    text-align: justify;
+}
+
+
+
+/******************** rightPart ******************/
+
+#rightPart {
+    background-color: cornflowerblue;
+    border-radius: 2px;
+    padding: 35px;
+    
+}
+.tips {
+    height: 270px;
+    width: 200px;
+    margin: 20px auto;
+}
+.tips h6 {
+    position: relative;
+    color: #0E2773;
+    top: 95%;
+    transform: translateY(-50%);
+}
+.tips:hover {
+    transform: scale(1.08);
+    opacity: 0,9;
+    transition: ease-out 0.1s;
+}
+footer {
+    background-color: dodgerblue;
+    padding: 10px 0 5PX 0px;
+}
+p, img {
+    text-align: center;
+}
